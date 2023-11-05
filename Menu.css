@@ -1,0 +1,370 @@
+body {
+    background-color: rgb(255, 193, 236);
+}
+
+.a {
+    margin-left: 80px;
+}
+
+.g1 {
+    display: inline-flex;
+}
+
+.Pizza {
+    display: inline-flex;
+}
+
+.images1 {
+    display: inline-flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 210px
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: solid;
+}
+
+h4 {
+    color: red;
+}
+
+.amounta {
+    display: inline-flex;
+    margin-left: 27px;
+}
+
+.amount {
+    display: inline-flex;
+    margin-left: 27px;
+}
+
+.a1 {
+    margin-right: 10px;
+}
+
+.a2 {
+    margin-left: 10px;
+}
+
+.a3 {
+    margin-left: 10px;
+}
+
+.non-v {
+    display: inline-flex;
+}
+
+.amount2a {
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.amount2 {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.num3 {
+    color: blue;
+}
+
+.a4 {
+    margin-right: 10px;
+}
+
+.a5 {
+    margin-left: 10px;
+}
+
+.a6 {
+    margin-left: 10px;
+}
+
+.b {
+    margin-left: 130px;
+}
+
+.images2 {
+    display: inline-flex;
+}
+
+.img2 {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 105px
+}
+
+.non-v2 {
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.a7 {
+    margin-left: -24px;
+}
+
+.a8 {
+    margin-left: 10px;
+}
+
+.c {
+    margin-left: 170px;
+}
+
+.Pasta {
+    display: inline-flex;
+}
+
+.images3 {
+    display: inline-flex;
+}
+
+.img3 {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 130px
+}
+
+.non-v3 {
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.a9 {
+    margin-left: 20px;
+}
+
+.a10 {
+    margin-left: 10px;
+}
+
+.d{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.g2 {
+    display: flex;
+}
+
+.sandwiches {
+    display: inline-flex;
+}
+
+.images4 {
+    display: inline-flex;
+}
+
+.img4 {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 45px
+}
+
+.a11 {
+    margin-left: -15px;
+}
+
+.a12 {
+    margin-left: 20px;
+}
+.e{
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+.appetizer {
+    display: inline-flex;
+}
+
+.images5 {
+    display: inline-flex;
+}
+
+.img5 {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 60px
+}
+
+.a13 {
+    margin-left: -15px;
+}
+
+.a14 {
+    margin-left: 30px;
+}
+.f{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.beverages {
+    display: inline-flex;
+}
+
+.images6 {
+    display: inline-flex;
+}
+
+.img6 {
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-left: 60px
+}
+
+.a15 {
+    margin-left: -15px;
+}
+
+.page-end {
+    background-color: #333;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.you  {
+    width: 8%;
+    height: 0%;
+    margin-left: 0px;
+}
+
+.ins {
+    width: 8%;
+    height: 0%;
+    margin-left: 0px;
+}
+
+.fac {
+    width: 8%;
+    height: 0%;
+    margin-left: 0px;
+}
+
+.e1 {
+    color: white;
+}
+
+a {
+color: white;
+}
+
+.con {
+    margin-left: 90px;
+}
+
+.em {
+    margin-left: 190px;
+}
+
+.web {
+    margin-left: 240px;
+}
+
+.de {
+    margin-left: 0px;
+}
+
+.n:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        margin-left: 160px;
+    }
+    .g1 {
+        flex-direction: column;
+    }
+
+    .g2 {
+        flex-direction: column;
+    }
+
+    .a {
+        margin-left: 0px;
+    }
+
+    .b {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .c {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .d {
+        margin-left: 0px;
+    }
+
+    .e {
+        margin-left: 0px;
+    }
+
+    .f {
+        margin-left: 0px;
+    }
+
+    .bv {
+        margin-top: -60px;
+    }
+
+    .cv {
+        margin-top: -60px;
+    }
+
+    .amounta {
+        margin-left: 0px;
+    }
+
+    .amount2a {
+        margin-left: 0px;
+    }
+
+    .e1 {
+        color: white;
+    }
+    .page-end {
+        flex-direction: column;
+    }
+
+    .con {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .em {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .web {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .de {
+        text-align: center;
+        margin-left: 0px;
+    }
+}

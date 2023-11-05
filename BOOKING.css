@@ -1,0 +1,136 @@
+h1  {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+video {
+    width: 50%;
+}
+
+.page-end {
+    background-color: #333;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.you  {
+    width: 5%;
+    margin-left: 10px;
+}
+
+.ins {
+    width: 5%;
+}
+
+.fac {
+    width: 5%;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+color: white;
+}
+
+.con {
+    margin-left: 60px;
+}
+
+.em {
+    margin-left: 250px;
+}
+
+.web {
+    margin-left: 250px;
+}
+
+.de {
+    margin-left: 0px;
+}
+
+.n:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 100%;
+    }
+
+    .a1 {
+        margin-left: 0px !important;
+    }
+
+    .a2 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .a3 {
+        margin-left: 0px !important;
+    }
+
+    .a4 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .a5 {
+        margin-left: 0px !important;
+    }
+
+    .a6 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .bu {
+        margin-left: 0px !important;
+    }
+
+    .r1 {
+        flex-direction: column;
+    }
+
+    .r2 {
+        flex-direction: column;
+    }
+    
+    .r3 {
+        flex-direction: column;
+    }
+
+    .page-end {
+        flex-direction: column;
+    }
+
+    .con {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .em {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .web {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .de {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+}

@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Booking Of Little Lemon</title>
+        <link rel="stylesheet" href="BOOKING.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form ACTION ="MAILTO:murtuzaabbaas07@gmail.com"method="post">
+            <header>
+                <h1>Book A Table</h1> 
+                <center><video loop muted autoplay><source src="https://previews.customer.envatousercontent.com/files/31c4c218-bd2b-4a40-a912-e750ed918745/video_preview_h264.mp4" type="video/mp4">
+                </video></center>
+            </header>
+            <main>
+                <div style="display:flex;margin-top: 10px;" class="r1">
+                    <div style="margin-left:340px;" class="a1">
+                      <label for="booking_date">Booking Date</label><br>
+                      <input type="date" id="booking_date" name="booking_date" required >
+                    </div>
+                    <div style="margin-left:360px;" class="a2">
+                       <label for="booking_location">Location</label><br>
+                       <input id="booking_location" name="booking_location" list="location" required >
+                       <datalist id="location">
+                        <option value="downtown"></option>
+                        <option value="uptown"></option></datalist> 
+                    </div>
+                </div><br>
+                <div style="display:flex;" class="r2">
+                    <div style="margin-left:340px;" class="a3">
+                        <label for="booking_people">Number Of People</label><br>
+                        <input type="range" id="booking_people" name="booking_people" min="1" max="20" 
+                        value="10"  oninput="this.nextElementSibling.value=this.value" required >
+                        <output>10</output>
+                    </div>
+                    <div style="margin-left:323px;" class="a4">
+                        <label for="user_name">Name</label><br>
+                        <input type="text" id="user_name" name="user_name"required class="t">
+                    </div>
+                </div><br>
+                <div style="display:flex;" class="r3">
+                    <div style="margin-left:340px;" class="a5">
+                        <label for="user_password">Phone No</label><br>
+                        <input type="number" id="user_number" name="user_number" required minlength="10" maxlength="10" >
+                    </div>
+                    <div style="margin-left:300px;" class="a6">
+                        <label for="user_email">Email</label><br>
+                        <input type="email" id="user_email" name="user_email"required >
+                    </div>
+                </div><br>
+                <div style="margin-left: 600px;margin-top: 10px;" class="bu">
+                  <button type="submit">Sign Up</button>
+                </div>
+                <div class="page-end">
+                    <div class="con">
+                    <h4>Contact No.</h4>
+                    <a href="#" onclick="alert('Hello')">(+91 86759 44231)<br><br>
+                    (+91 85634 11142)</a>
+                    </div>
+                    <div class="em">
+                        <h4>Email Address</h4>
+                        <a href="smar69@gmail.com" target="_blank">smar69@gmail.com</a>
+                    </div>
+                    <div class="web">
+                         <h4>Website.com</h4>
+                         <div class="sm-links">
+                            <a href="www.youtube.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" class="you"></a>
+                            <a href="www.instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" class="ins" alt="ins"></a>
+                            <a href="www.facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" class="fac" alt="fac"></a>
+                        </div>
+                    </div>
+                    <div class="de">
+                        <h4>Designes By</h4>
+                        <a href="https://github.com/Abbas1345" target="_blank" class="n">Murtaza Abbas</a>
+                    </div>
+                </div>
+            </main>
+        </form>
+    </body>
+</html>

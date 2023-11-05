@@ -1,0 +1,318 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Markazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+:root {
+    --menu-count: 3;
+}
+
+.mobile-menu-btn {
+    display: none;
+}
+
+h1 {
+    font-size: 3rem;
+    position: absolute;
+}
+
+.rock {
+    position: absolute;
+    margin-top: 90px;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 600px;
+   height: 290px;
+   object-fit: contain;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #464242;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.num1 {
+    background-image: url("https://images.aws.nestle.recipes/original/52007da8aee0c1d4cdb98e2e5c9b03cd_Maggi_-_Easy_Creamy_Chicken_Pasta.jpg");
+    background-size:cover ;
+    width: 100%;
+}
+
+.num2 {
+    display: flex;
+    text-align: center;
+}
+
+.num2 {
+    flex: 1;
+    margin-top: 10px;
+}
+.anchor{
+    color: white;
+    text-decoration: auto;
+    margin-right: 7px;
+}
+
+.num3 {
+    margin-right: 10px;
+    background-color: bisque;
+} 
+
+.num4 {
+    margin-right: 10px;
+    background-color: bisque;
+}
+
+.num5 {
+    margin-right: 10px;
+    background-color: bisque;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.i1 {
+    height: 200px;
+    width: 300px;
+}
+
+.i2 {
+    height: 200px;
+    width: 300px;
+}
+
+.i3 {
+    height: 200px;
+    width: 300px;
+}
+
+a :hover {
+    color: red;
+}
+
+
+.page-end {
+    background-color: #333;
+    margin-left: -67px;
+    margin-right: -67px;
+    margin-bottom: -48px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.you  {
+    width: 15%;
+    margin: 0px;
+}
+
+.ins {
+    width: 15%;
+    margin: 0px;
+}
+
+.fac {
+    width: 15%;
+    margin: 0px;
+}
+
+h4 {
+    color: white;
+    text-decoration: solid;
+}
+
+.c {
+color: white;
+}
+
+.con {
+    margin-left: 60px;
+}
+
+.em {
+    margin-left: 250px;
+}
+
+.web {
+    margin-left: 250px;
+}
+
+.de {
+    margin-left: 140px;
+}
+
+.na {
+    color: #ffffff;
+}
+
+.na:hover {
+    color: red;
+}
+
+.num1{
+    background-image: url('https://www.goodnes.com/sites/g/files/jgfbjl321/files/styles/facebook_share/public/recipe-thumbnail/112506-52007da8aee0c1d4cdb98e2e5c9b03cd_Maggi_-_Easy_Creamy_Chicken_Pasta.jpg?itok=TlmOtb1F');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 180px;
+    border-radius: 30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    /*.n {
+        display: none;
+    }*/
+
+    /*.mobile-menu-btn {
+        width: 5vh;
+        height: 5vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 200;
+    }*/
+
+    body {
+        margin: 0px auto;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .i {
+        width: 100% !important;
+    }
+
+    .num1 {
+        padding-bottom: 230px;
+    }
+
+    .num2 {
+        flex-direction: column;
+    }
+    .num3 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+
+    .num4 {
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+
+    .num5 {
+        margin-bottom: 0vh;
+        width: 100%;
+    }
+
+    .i1 {
+        width: 90%;
+    }
+
+    .i2 {
+        width: 90%;
+    }
+
+    .i3 {
+        width: 90%;
+    }
+
+    .w {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        text-align: center;
+    }
+
+    .rock {
+        margin-top: 110px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .time {
+        margin-top: 0vh;
+    }
+
+    .n {
+        margin-top: 0px;
+        width: 100%;
+
+    }
+
+    .page-end {
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .con {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .em {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .web {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .de {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .you {
+        width: 5%;
+    }
+
+    .ins {
+        width: 5%;
+    }
+
+    .fac {
+        width: 5%;
+    }
+
+    /*.n {
+        margin-top: 0px;
+        flex-direction: column;
+    }*/
+}
